@@ -26,7 +26,7 @@ const Books = (props) => {
         );
     }
     return (
-        <div className="alert alert-warning">Not logged-in!</div>
+        <div className="alert alert-warning">You are not logged in.</div>
     );
 };
 
