@@ -11,7 +11,7 @@ const Books = (props) => {
             })
             .catch(error => console.error(error));
         }
-    });
+    }, []);
     const bookList = books.map((book) => 
         <div key={book.id}
             className="list-group-item"
